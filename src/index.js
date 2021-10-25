@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//Install and config react router
+import { BrowserRouter as Router } from 'react-router-dom';
 
+//HOC pattern
+//HOF is a function that 
 ReactDOM.render(
   <React.StrictMode>
+    <Router>
     <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
