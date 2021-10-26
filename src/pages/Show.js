@@ -36,7 +36,7 @@ function Show(props){
             <button id="delete" onClick={removePerson}>
                 DELETE
                 </button>
-            <form action={handleSubmit}>
+            <form onSubmit={handleSubmit}>
                 <input 
                 type="text"
                 value={editForm.name}
